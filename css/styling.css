@@ -1,0 +1,213 @@
+body{
+    background-image: url("/img/whisky5.jpg");
+    background-size: 100%;
+    background-attachment: fixed;  
+    font-family: Tahoma;  
+    min-height: 1050px;
+}
+
+html{
+    height: 100%;
+}
+
+#title{
+    font-family: "Niagara Engraved";
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    width:100%;
+    top:3%;
+    position: relative;
+}
+
+#registertext{
+    font-family: "Niagara Engraved";
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    width:100%;
+    top:-50px;
+    position: relative;
+}
+
+#wrap{
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 74%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 500px;
+    right:50%;
+    left:70.5%;
+    margin-left:-256px;
+    font-family: "Franklin Gothic Medium";
+    color: white;
+    font-size: 24px;
+}
+
+#commentTitle{
+    display: block;
+    width: 512px;
+    right:25%;
+    left:50%;
+    margin-left:-256px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    position: absolute;
+    top: 125.1%;
+    font-size: 52px;
+    font-family: "Niagara Engraved", Times, serif;
+    font-weight: bold;
+    border-bottom: none;
+}
+.comments
+{
+    display: block;
+    width: 512px;
+    right:25%;
+    left:50%;
+    margin-left:-256px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    position: absolute;
+    top: 135%;
+    border-top: none;
+}
+
+#searchform{
+    top:105%;
+    font-size: 14px;
+    width: 13.1%;
+    left: 45%;
+    right: 25%;
+    position: absolute;
+    font-family: "Franklin Gothic Medium";
+    font-size: 18px;
+    color: white;
+}
+
+.registerForm{
+    display: block;
+    width: 512px;
+    right:25%;
+    left:50%;
+    margin-left:-256px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    position: absolute;
+    top: 55%;
+    font-family: "Franklin Gothic Medium";
+    color: black;
+    font-size: 28px;
+    height: 115%;
+}
+#regTitleInForm{
+    font-size: 60px;
+    font-family: "Niagara Engraved";
+}
+
+
+.enterEmail{
+    font-size: 14pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+}
+
+.enterPassword{
+    font-size: 22pt;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    
+}
+
+.registerbutton{
+    font-family: "Niagara Engraved", Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(170, 170, 170);
+    color: black;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 60%;
+}
+
+.postbutton{
+    font-family: "Niagara Engraved", Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    margin: 8px 0;
+    border: none;
+    width: 20%;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.success{
+    color: rgb(20, 218, 20);
+    font-size: 17px;
+    border:2px solid black;
+    background-color: white;
+    width: 22%;
+    left: 38%;
+    right: 25%;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+
+a:visited, a:link{
+    color:blue;
+    text-decoration: none;
+}
+
+#logout {
+    color: white;
+    top:2%;
+    font-size: 17px;
+    width: 7%;
+    left: 90%;
+    background-color: black;
+    right: 25%;
+    position: fixed;
+    font-size: 50px;
+    font-family: "Niagara Engraved", Times, serif;
+
+}
+
+#profile{
+    color: white;
+    top:2%;
+    font-size: 17px;
+    width: 9.5%;
+    left: 0%;
+    background-color: black;
+    right: 25%;
+    position: fixed;
+    font-size: 50px;
+    font-family: "Niagara Engraved", Times, serif;
+
+}
